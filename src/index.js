@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 
 ReactDOM.render(
-  <BrowserRouter >
+  <BrowserRouter basename={window.location.pathname || ''}>
         <App />
     </BrowserRouter>,
   document.getElementById('root')
