@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter >
         <App />
     </BrowserRouter>,
   document.getElementById('root')
