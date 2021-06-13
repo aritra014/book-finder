@@ -2,6 +2,7 @@ import axios from 'axios';
 import BookSearchModule from './BookSearchModule';
 import {Card,Navbar,NavbarBrand,NavbarText,Container, NavItem} from 'reactstrap';
 import MadeWithLove from 'react-made-with-love';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
 import './App.css';
@@ -11,7 +12,16 @@ function App() {
 
 
   return (
+    <Router>
     <div className="App">
+    
+     <Switch>
+
+    <Route path="/">
+    <BookSearchModule></BookSearchModule>
+          </Route>
+    
+    </Switch>
       
       <BookSearchModule></BookSearchModule>
 
@@ -30,7 +40,7 @@ function App() {
 
 </div>
  
- 
+ </Router>
  
  );
 }
