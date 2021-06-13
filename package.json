@@ -1,6 +1,6 @@
 {
   "homepage": "http://aritra014.github.io/bookfinder/",
-  "name": "bookfinder",
+  "name": "book-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
