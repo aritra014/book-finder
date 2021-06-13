@@ -10,7 +10,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 ReactDOM.render(
  <BrowserRouter basename={window.location.pathname || ''}>
-  <Route exact path="/" component={Index} />
+  <Route exact path="/" component={App} />
 </BrowserRouter>,
   document.getElementById('root')
 );
